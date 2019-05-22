@@ -1,4 +1,4 @@
-
+// add a new migration for new changes
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('roles', table => {
       table.increments();
